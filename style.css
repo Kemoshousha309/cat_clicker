@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  border: 1px solid gray;
+  background-color: white;
+  width: fit-content;
+  width: min(300px, 100%);
+  padding: 20px;
+  text-align: center;
+}
+
+.catImg {
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.mainCat {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color:blanchedalmond;
+  width: min(700px , 100%);
+  margin: 0 auto;
+}
+
+
+.catListContainer h2 {
+  text-align: center;
+}
+
+.catsList {
+  list-style: none;
+  padding-inline-start: 0px;
+  width: min(400px, 100%);
+  margin: 0 auto;
+  
+}
+
+.listItem {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.listItem:hover, .active {
+  background-color: gray;
+  color: white;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 1rem;
+}
